@@ -12,7 +12,10 @@ body{
 #navegacao {
 	background: #fff;
 	border-bottom: 1px solid #d8d8d8;
-	height: 40px;
+	height: 45px;
+	position: fixed;
+	width: 100%;
+	top: 0;
 }
 
 #area {
@@ -21,7 +24,7 @@ body{
 }
 #area-principal {
 	width: 720px;
-	margin: 10px auto;
+	margin: 55px auto 10px auto;
 }
 #logo{
 	float: left;
@@ -33,6 +36,10 @@ body{
 }
 
 #postagem{
+	background:#FFF;
+	padding: 10px;
+}
+#postagem2{
 	background:#FFF;
 	padding: 10px;
 }
